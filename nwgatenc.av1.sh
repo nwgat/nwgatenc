@@ -12,10 +12,10 @@ echo "File to encode (use tab to select)"
 
 read -e file
 
-echo "Number of Frames to skip (blank blank if none)"
+echo "Number of Frames to skip (0 if none)"
 read skip
 
-echo "Number of frames to encode (leave blank if none)"
+echo "Number of frames to encode (0 if none)"
 read limit
 
 echo "Video bitrate (6000 = 6mbps)"
