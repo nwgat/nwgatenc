@@ -1,8 +1,6 @@
 #!/bin/bash
 # http://nwgat.ninja
 #
-clear
-
 git=`git log --pretty=format:'%h' -n 1`
 
 echo ""
